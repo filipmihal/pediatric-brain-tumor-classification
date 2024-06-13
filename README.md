@@ -81,6 +81,8 @@ Grid search with CV: 5 folds
 
 Scoring: F1 macro
 
+![Results](plots/results.png)
+
 ## Results
 
 The best performing model was MLP with 64 neurons and 0.01 learning rate.
@@ -88,8 +90,6 @@ The best performing model was MLP with 64 neurons and 0.01 learning rate.
 **Model:** MLP, 64 neurons, 0.01 learning rate
 
 **Data:** StandardScaler, 44 principal components, SMOTE oversampling
-
-![Results](plots/results.png)
 
 ### Analysis of the confusion matrix
 
