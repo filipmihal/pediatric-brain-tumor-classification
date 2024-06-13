@@ -16,7 +16,7 @@ Interpret the model and identify the most important genes for each class (binary
 
 We used a dataset from a study that analyzed frozen or formalin-fixed paraffin-embedded (FFPE) tissue from 571 patient samples, including 559 pediatric brain tumors and 12 non-tumor brain control samples. The dataset was downloaded from the [Gene Expression Omnibus (GEO) database.](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE227756)
 
-## Data Preparation & Exploration
+## Data preparation & exploration
 
 ```python
 import GEOparse
@@ -44,7 +44,7 @@ labels = gse.phenotype_data[['source_name_ch1','characteristics_ch1.0.tumor type
 
 ![Data](plots/pca_3d.png)
 
-## Data Preprocessing
+## Data preprocessing
 
 **Normalization:** StandardScaler
 
@@ -97,7 +97,7 @@ Our model primarily struggles with differentiating between high-grade glioma (HG
 
 ![Confusion Matrix](plots/confusion_matrix.png)
 
-## Feature Importance
+## Feature importance
 
 Feature interpretability for tumor and non-tumor samples
 
