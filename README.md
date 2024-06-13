@@ -91,13 +91,13 @@ The best performing model was MLP with 64 neurons and 0.01 learning rate.
 
 ![Results](plots/results.png)
 
-## Interpretation
+## Interpretation of the model
 
 Our model primarily struggles with differentiating between high-grade glioma (HGG) and low-grade glioma (LGG), which are similar types of tumors, with HGG being more aggressive. Additionally, the model often confuses MMRD-HGG with HGG. While they are the same type of tumor, MMRD-HGG has a slightly higher mutation rate compared to HGG.
 
 ![Confusion Matrix](plots/confusion_matrix.png)
 
-## Feature Interpretation
+## Feature Importance
 
 Feature interpretability for tumor and non-tumor samples
 
