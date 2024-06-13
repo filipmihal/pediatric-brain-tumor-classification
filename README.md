@@ -91,7 +91,7 @@ The best performing model was MLP with 64 neurons and 0.01 learning rate.
 
 ![Results](plots/results.png)
 
-## Interpretation of the model
+### Analysis of the confusion matrix
 
 Our model primarily struggles with differentiating between high-grade glioma (HGG) and low-grade glioma (LGG), which are similar types of tumors, with HGG being more aggressive. Additionally, the model often confuses MMRD-HGG with HGG. While they are the same type of tumor, MMRD-HGG has a slightly higher mutation rate compared to HGG.
 
